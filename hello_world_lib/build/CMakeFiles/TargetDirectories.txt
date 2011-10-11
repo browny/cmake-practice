@@ -1,0 +1,2 @@
+/home/brownylin/cmake-practice/hello_world_lib/build/src/CMakeFiles/hello.dir
+/home/brownylin/cmake-practice/hello_world_lib/build/src/CMakeFiles/hello_static.dir

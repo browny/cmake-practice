@@ -1,1 +1,0 @@
-/home/brownylin/cmake_play/hello_world/CMakeFiles/hello.dir
