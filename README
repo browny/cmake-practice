@@ -12,4 +12,6 @@ This is a simple CMake practice project which contains four different scenarios
 4. hello_world_share
     Demp how to utilize external static/shared library
 
-If any question or recommendation, feel free to contact me.
+More info refers to http://sewm.pku.edu.cn/src/paradise/reference/CMake%20Practice.pdf
+
+If any question or recommendation, feel free to contact me, thanks :)
