@@ -1,1 +1,0 @@
-/usr/bin/gcc     CMakeFiles/main.dir/main.o  -o main -rdynamic -lhello 
