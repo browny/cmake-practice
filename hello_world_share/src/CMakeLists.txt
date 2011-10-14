@@ -1,5 +1,12 @@
+cmake_minimum_required(VERSION 2.8)
 
 ADD_EXECUTABLE(main main.c)
+
 INCLUDE_DIRECTORIES(../include/hello)
 
-TARGET_LINK_LIBRARIES(main libhello.so)
+FIND_LIBRARY(HELLO_LIB NAMES hello PATHS "../lib/")
+MESSAGE(STATUS "Library path HELLO_LIB is " ${HELLO_LIB})
+
+TARGET_LINK_LIBRARIES(main ${HELLO_LIB})
+
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
